@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-container {
+    width: 871px;
+    height: 420px;
+    top: 3185.56px;
+    left: 284px;
+    gap: 24px;
+    margin-top: 50px;
+    margin-left: 250px;
+    overflow: hidden;
+}
+
+.testimonial {
+    flex: 0 0 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.author {
+    font-style: italic;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-100%);
+    }
+    45% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-200%);
+    }
+    70% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-300%);
+    }
+    95% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slider {
+    display: flex;
+    animation: slide 15s linear infinite;
+}
+
+}
+

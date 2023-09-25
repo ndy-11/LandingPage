@@ -1,0 +1,503 @@
+/* Navbar */
+body {
+  max-width: auto;
+  max-height: auto;
+}
+.latar {
+  max-width: 768px;
+  position: absolute;
+  margin-left: 780px;
+  margin-top: -150px;
+}
+.navbar {
+  top: 32px;
+  position: absolute;
+  z-index: 1;
+}
+
+.navbar-logo {
+width: 248px;
+height: 67px;
+border-radius: 40px;
+padding: 16px;
+gap: 8px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  padding-left: 100px;
+  padding-right: -300px;
+  padding-top: 180px;
+  padding-bottom: 455px;
+  width: 645px;
+  height: 279px;
+}
+.jumbotron .display-4 {
+  color: black;
+  text-align: left;
+  font-size: 58px;
+  line-height: 69.6px;
+}
+.jumbotron .lead {
+  color: black;
+  text-align: left;
+  font-size: 20px;
+  line-height: 28px;
+}
+.jumbotron .btn {
+  background: linear-gradient(180deg, #FFBF44 11.46%, #FF7A00 100%);
+  width: 204px;
+  height: 57px;
+  border-radius: 30px;
+  padding: 15px;
+  margin-left: -340px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font: Jost;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .navbar-brand,
+  .nav-link {
+    color:rgba(25, 40, 57, 1) !important;
+    text-shadow: 5 px 5px 5px rgba(0, 0, 0, 0);
+  }
+
+  .nav-link {
+    width: Hug 60.02px;
+    height: Hug 85px;
+    padding: 0px 14px 0px 14px;
+    margin-right: 14px;
+    font: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+
+  .navbar {
+    width: Hug 555.88px;
+    height: Hug 85px;
+  }
+
+  .btn-a{
+    background: linear-gradient(180deg, #FFBF44 11.46%, #FF7A00 100%);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font: Jost;
+    font-weight: 500;
+    line-height: 27px;
+    padding: 11px 35.44px 11px 36px;
+    border-radius: 25px;
+    margin-right: 60px;
+  }
+  .container-fluid {
+    padding-left: 80px;
+    width: 98vw;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .col-md {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.199);
+    text-align: left;
+  }
+  .col-md h3 {
+    margin-top: 50px;
+    text-align: left;
+  }
+  .col-md p {
+    text-align: left;
+  }
+
+/* layanan kami */
+
+.col-12 p {
+  font-family: Jost;
+  font-size: 13px;
+  margin-left: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(255, 110, 0, 1);
+}
+
+.col-12 h2{
+  margin-left: 80px;
+  font: Nunito;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.col-sm-4{
+  width: Hug 323px;
+  height: Hug 314px;
+  padding: 32px;
+  border-radius: 10px;
+  gap: 56px;
+}
+
+.card {
+  left: 50px;
+  width: 335px;
+  height: 314px;
+  padding: 32px;
+  border-radius: 10px;
+  gap: 56px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 4px 4px 32px 0px rgba(255, 204, 73, 0.25);
+}
+
+.card-title {
+  margin-left: -20px;
+  margin-bottom: 25px;
+  width: 210px;
+  height: 53px;
+  font: Nunito;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(25, 40, 57, 1);
+}
+
+.card-text {
+  margin-top: 40px;
+  margin-left: -20px;
+  width: 244px;
+  height: 51px;
+  font: Jost;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(25, 40, 57, 1);
+}
+
+.icon-bg {
+  margin-top: -15px;
+  margin-left: -30px;
+  width: 66px;
+  height: 65px;
+  border-radius: 50%;
+  background: rgba(255, 219, 183, 1);
+  box-shadow: 0px 15px 25px 0px rgba(0, 4, 74, 0.04);
+}
+.icon-bg img{
+  margin-top: 15px;
+}
+
+/*Mengapa*/
+.col p{
+  width: 190px;
+  height: 20px;
+  font: Jost;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1.2999999523162842px;
+  text-align: left;
+  color: rgba(255, 110, 0, 1);
+}
+
+.col h2 {
+  width: 670px;
+  height: 101px;
+  font: Nunito;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(25, 40, 57, 1);
+
+}
+
+.single {
+  width: Hug 241.16px;
+  height: Hug 80.19px;
+  padding: 0px, 0px, 0px, 0px;
+  gap: 4px;
+
+}
+
+.single-counter {
+ width: 65px;
+  height: 36px;
+  font: Nunito;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 110, 0, 1);
+  margin-top: 40px;
+}
+
+.single-counter p{
+  width: 169px;
+  height: 40px;
+  font: Jost;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: -200px;
+  margin-top: 10px;
+  color: rgba(84, 84, 84, 1);
+}
+
+.single h4{
+  margin-top: -10px;
+  margin-left: -65px;
+  width: 823px;
+  font: Jost;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(84, 84, 84, 1);
+}
+
+.container-client {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  width: 1,435px;
+  height: 138px;
+  top: 1745px;
+  left: 1px;
+  gap: 93px;
+  background: rgba(255, 239, 208, 1);
+}
+
+.col-md-2 {
+  width: 165px;
+  height: 104px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.container-tentang {
+  width: 1200px;
+  height: 517px;
+  top: 1991px;
+  left: 120px;
+}
+.col-md-6 {
+  width: 566px;
+  height: 517px;
+  top: 1991px;
+  margin-top: 60px;
+  margin-left: 120px;
+
+}
+.kami {
+  width: Fixed 560px;
+  height: Hug 369px;
+  top: 2065px;
+  left: 760px;
+  gap: 16px;
+
+}
+
+.col-md-4 {
+  width: Fixed 560px;
+  height: Hug 369px;
+  top: 2065px;
+  left: 760px;
+  gap: 16px;
+  margin-left: 50px;
+  margin-top: 120px;
+}
+
+.kami h5 {
+  width: 115px;
+  height: 20px;
+  font: Jost;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1.2999999523162842px;
+  text-align: left;
+  color: rgba(255, 110, 0, 1);
+
+}
+
+.kami h2{
+  width: 580px;
+  height: 101px;
+  font: Nunito;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(25, 40, 57, 1);
+}
+
+.kami p{
+  width: 560px;
+  height: 216px;
+  font: Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(101, 101, 101, 1);
+  text-align: justify;
+}
+
+.container-perkerjaan {
+  width: 754px;
+  height: Hug 141.28px;
+  padding: 3px, 0px, 0.78px, 0px;
+  gap: 16.5px;
+  margin-top: 160px;
+  margin-left: 300px;
+}
+
+.project-body { 
+  width: 389px;
+  height: 284px;
+  border-radius: 10px;
+  margin-left: -30px;
+  background: linear-gradient(180deg, #FFD076 0%, #F88907 100%);
+ }
+
+.card-1 { 
+  margin-left: 100px ;
+ }
+
+.card-2 { 
+  margin-left: 50px ;
+}
+.card-3 { 
+  margin-left: 0px ;
+}
+
+.project-text{
+    width: 92px;
+    height: 19.6px;
+    font: Jost;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-top: -85px;
+    margin-left: 15px;
+}
+
+.project-body h5 {
+  width: 300px;
+  height: 27px;
+  font: Nunito;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 15px;
+}
+
+.project-text-2{
+    width: 160px;
+    height: 19.6px;
+    font: Jost;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+.col-xl-5 {
+  width: 488px;
+  height: 488px;
+  margin-top: -620px;
+  margin-left: 782px;
+  border-radius: 90%;
+  background: linear-gradient(359.25deg, rgba(242, 135, 11, 0.85) 34.97%, rgba(254, 177, 104, 0.85) 99.35%);
+}
+
+.emargency-h2 {
+  width: 322px;
+  height: 87px;
+  font: Nunito;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 72px;
+  margin-top: 125px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.emargency-p {
+  width: 482px;
+  height: 45px;
+  margin-top: 25px;
+  font: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: -6px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.emargency .btn{
+  width: 272px;
+  height: 57px;
+  font: Jost;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 1px;
+  text-align: auto;
+  border-radius: 50px;
+  margin-left: 5px;
+  color: rgba(255, 122, 0, 1);
+  background-color: white;
+}
+
+.footer-col .contact{
+  color: rgba(255, 122, 0, 1);
+  font: Nunito;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
